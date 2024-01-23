@@ -1,0 +1,33 @@
+{
+  "ts-node": {
+    "esm": true
+  },
+  "lib": [
+    "esnext"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "outDir": "./build",
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "downlevelIteration": true,
+    "types": [
+      "node"
+    ],
+    // "paths": {
+    //   "*": ["./node_modules/*", "./src/*"],
+    //   "@server/*": ["./src/server/*"],
+    //   "@base/*": ["./src/node-base/*"],
+    // }
+  }
+}
